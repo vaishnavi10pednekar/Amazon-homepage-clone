@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: border-box;
+}
+
+#nav{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    background-color: #003049;
+    align-items: center;
+    position: fixed;
+    top: 0;            /* stick to top */
+    left: 0;
+    z-index: 1000;
+    /* justify-content: space-around; */
+}
+#navlogo{
+    height: 90px;
+    width: 140px;
+    margin-left: 5px;
+}
+
+#sociallenslogo{
+    background-image: url("sociallenslogo.png");
+    height: 100px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#aboutus{
+    color: white;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    right: 380px;
+}
+#aboutus:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+#login{
+    color: white;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    position: absolute;
+    right: 20px;
+}
+#login:hover{
+    /* background-color: gray; */
+    border: 1px solid white;
+}
+
+#contact{
+    color: white;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    right: 255px;
+}
+#contact:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+#features{
+    color: white;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    right: 120px;
+}
+#features:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+#hero-section::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* adjust darkness */
+    z-index: 1;
+}
+
+#hero-section{
+    background-image: url("bodyimg2.png");
+    /* opacity: 70%; */
+    width: 100%;
+    height: 615px;
+    background-size: cover;
+    /* filter: brightness(0.5); */
+    display: flex;
+    justify-content: center;
+
+}
+
+#hero-written{
+    color:rgb(243, 216, 164);
+    /* font-weight: bolder; */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 85px;
+    margin-top: 140px;
+    margin-left: 25px;
+    text-align: center;
+    z-index: 2;
+    /* margin-left: 10px; */
+}

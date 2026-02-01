@@ -1,0 +1,586 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: border-box;
+}
+
+/** NAVBAR **/
+
+/** AMAZON LOGO **/
+#navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#navlogo{
+    height: 50px;
+    width: 140px;
+    /**margin-left: 5px;**/
+    border: 1.2px solid transparent;
+}
+#navlogo:hover{
+    border: 1.2px solid white;
+}
+#amazonlogo{
+    background-image: url("Amazon-Logo-White-PNG-Image.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+/** NAVBAR ADDRESS **/
+#add1{
+    color: #cccccc;
+    font-size: 1rem;
+    margin-left: 25px;
+}
+#add2{
+    color: #ffffff;
+    font-size: 1.6rem;
+}
+#add-icon{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+#address{
+    /**margin-left: 20px;**/
+    border: 1.2px solid transparent;
+    width: 92px;
+}
+#address:hover{
+    border: 1.2px solid white;
+}
+
+/** NAVBAR SEARCH ENGINE **/
+#nav-search-select{
+    height: 40px;
+    width: 50px;
+    background-color: #e6e6e6;
+    color: #0f1111;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    text-align: center;
+    text-decoration: black;
+    font-size: 15px;
+}
+#nav-search-input{
+    height: 40px;
+    width: 500px;
+    border: none;
+    padding-left: 8px;
+    font-size: 18px;
+}
+#navsearch{
+    align-items: center;
+    display: flex;
+    /**margin-left: 25px;**/
+    border: 1.2px solid transparent;
+}
+#navsearch:hover{
+    border: 1.2px solid rgb(238, 153, 6);
+    border-radius:8px ;
+}
+#search-icon{
+    background-color: rgb(238, 153, 6);
+    height: 40px;
+    width: 50px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+/** NAV LANGUAGE SELECT**/
+#nav-language-select{
+    height: 30px;
+    width: 50px;
+    border-color: transparent;
+    border: none;
+    background-color: transparent;
+    color: white;
+    /**margin: 30px;**/
+    font-size: large;
+    font-weight: bold;
+    border: 1.2px solid transparent;
+}
+#nav-language-select:hover{
+    border: 1.2px solid white;
+}
+/**#indian-flag{
+    height: 10px;
+    width: 15px;
+    background-size: cover;
+    margin: 40px;
+    background-image: url("indianflag.png");
+}**/
+#language-select{
+    align-items: center;
+    display: flex;
+}
+
+/** SIGN IN **/
+#nav-signin1{
+    font-size: 13px;
+    color: white;
+}
+#nav-signin2{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+#nav-signin{
+    align-items: center;
+    border: 1.2px solid transparent;
+}
+#nav-signin:hover{
+    border: 1.2px solid white;
+}
+
+/** RETURNS AND ORDERS **/
+#nav-returnandorder1{
+    font-size: 13px;
+    color: white;
+}
+#nav-returnandorder2{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+#nav-returnandorder{
+    align-items: center;
+    border: 1.2px solid transparent;
+}
+#nav-returnandorder:hover{
+    border: 1.2px solid white;
+}
+
+/** CART **/
+#nav-cart{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: 1.2px solid transparent;
+}
+#nav-cart:hover{
+    border: 1.2px solid white;
+}
+#nav-cart i{
+    font-size: 30px;
+    
+}
+
+/** PANNEL **/
+
+/** PANNEL ALL **/
+#pannel{
+    height: 39px;
+    width: 100%;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+#pannel-all{
+    font-weight: bold;
+    font-size:17px ;
+    color: white;
+    margin-left: 10px;
+    border: 1.2px solid transparent;
+}
+#pannel-all:hover{
+    border: 1.2px solid white;
+}
+#pannel-all i{
+    font-size: 17px;
+}
+
+#pannel-todaydeal{
+    font-size: 17px;
+    color: white;
+    margin-left: 20px;
+    border: 1.2px solid transparent;
+}
+#pannel-todaydeal:hover{
+    border: 1.2px solid white;
+}
+#pannel-customerservice{
+    font-size: 17px;
+    color: white;
+    margin-left: 20px;
+    border: 1.2px solid transparent;
+}
+#pannel-customerservice:hover{
+    border: 1.2px solid white;
+}
+#pannel-registry{
+    font-size: 17px;
+    color: white;
+    margin-left: 20px;
+    border: 1.2px solid transparent;
+}
+#pannel-registry:hover{
+    border: 1.2px solid white;
+}
+#pannel-giftcard{
+    font-size: 17px;
+    color: white;
+    margin-left: 20px;
+    border: 1.2px solid transparent;
+}
+#pannel-giftcard:hover{
+    border: 1.2px solid white;
+}
+#pannel-sell{
+    font-size: 17px;
+    color: white;
+    margin-left: 20px;
+    border: 1.2px solid transparent;
+}
+#pannel-sell:hover{
+    border: 1.2px solid white;
+}
+#pannel-republicday{
+    display: flex;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    right: 10px;
+    border: 1.2px solid transparent;
+}
+#pannel-republicday:hover{
+    border: 1.2px solid white;
+}
+#republic1{
+    color: rgb(255, 84, 22);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 6px;
+}
+#republic2{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 6px;
+}
+#republic3{
+    color: rgb(12, 219, 12);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 6px;
+}
+#republic4{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-size: 25px; */
+}
+
+/* HERO SECTION */
+#hero-section{
+    background-image: url("heroimage.png");
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+/* CONTENT SECTION */
+#content-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* BOX 1 */
+#box1{
+    height: 420px;
+    width: 307px;
+    background-color:white;
+    margin-top: 250px;
+}
+#box1-content{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 21px;
+    margin-left: 10px;
+    font-size: 22px;
+    margin-right: 40px;
+}
+#box1img{
+    /* justify-content: center;
+    align-items: center; */
+    height: 280px;
+    width: 250px;
+    margin-left: 14px;
+    margin-top: 10px;
+    /* display: flex; */
+    background-image: cover;
+}
+#box1content-1{
+    margin-left: 10px;
+}
+
+/* BOX 2 */
+#box2{
+    height: 420px;
+    width: 307px;
+    background-color:white;
+    margin-top: 250px;
+}
+#box2-content{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 21px;
+    margin-left: 10px;
+    font-size: 22px;
+    margin-right: 40px;
+}
+#box2img{
+    justify-content: center;
+    height: 280px;
+    width: 250px;
+    margin-left: 14px;
+    margin-top: 10px;
+    /* display: flex; */
+    background-image: cover;
+}
+#box2content-1{
+    margin-left: 10px;
+}
+
+/* BOX 3 */
+#box3{
+    height: 420px;
+    width: 307px;
+    background-color:white;
+    margin-top: 250px;
+}
+#box3-content{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 21px;
+    margin-left: 10px;
+    font-size: 22px;
+    margin-right: 40px;
+}
+#box3img{
+    justify-content: center;
+    height: 280px;
+    width: 250px;
+    margin-left: 14px;
+    margin-top: 10px;
+    /* display: flex; */
+    background-image: cover;
+}
+#box3content-1{
+    margin-left: 10px;
+}
+
+/* BOX 4 */
+#box4{
+    height: 420px;
+    width: 307px;
+    background-color:white;
+    margin-top: 250px;
+}
+#box4-content{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 21px;
+    margin-left: 10px;
+    font-size: 22px;
+    margin-right: 40px;
+}
+#box4img{
+    justify-content: center;
+    height: 280px;
+    width: 250px;
+    margin-left: 14px;
+    margin-top: 10px;
+    /* display: flex; */
+    background-image: cover;
+}
+#box4content-1{
+    margin-left: 10px;
+}
+
+/* BOX 5 */
+#box5{
+    height: 420px;
+    width: 307px;
+    background-color:white;
+    margin-top: 14px;
+}
+#box5-content{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 21px;
+    margin-left: 10px;
+    font-size: 22px;
+    margin-right: 40px;
+}
+#box5img{
+    /* justify-content: center;
+    align-items: center; */
+    height: 280px;
+    width: 250px;
+    margin-left: 14px;
+    margin-top: 10px;
+    /* display: flex; */
+    background-image: cover;
+}
+#box5content-1{
+    margin-left: 10px;
+}
+
+/* BOX 6 */
+#box6{
+    height: 420px;
+    width: 307px;
+    background-color:white;
+    margin-top: 14px;
+}
+#box6-content{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 21px;
+    margin-left: 10px;
+    font-size: 22px;
+    margin-right: 40px;
+}
+#box6img{
+    justify-content: center;
+    height: 280px;
+    width: 250px;
+    margin-left: 14px;
+    margin-top: 10px;
+    /* display: flex; */
+    background-image: cover;
+}
+#box6content-1{
+    margin-left: 10px;
+}
+
+/* BOX 7 */
+#box7{
+    height: 420px;
+    width: 307px;
+    background-color:white;
+    margin-top: 14px;
+}
+#box7-content{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 21px;
+    margin-left: 10px;
+    font-size: 22px;
+    margin-right: 40px;
+}
+#box7img{
+    justify-content: center;
+    height: 280px;
+    width: 250px;
+    margin-left: 14px;
+    margin-top: 10px;
+    /* display: flex; */
+    background-image: cover;
+}
+#box7content-1{
+    margin-left: 10px;
+}
+
+/* BOX 8 */
+#box8{
+    height: 420px;
+    width: 307px;
+    background-color:white;
+    margin-top: 14px;
+}
+#box8-content{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 21px;
+    margin-left: 10px;
+    font-size: 22px;
+    margin-right: 40px;
+}
+#box8img{
+    justify-content: center;
+    height: 280px;
+    width: 250px;
+    margin-left: 14px;
+    margin-top: 10px;
+    /* display: flex; */
+    background-image: cover;
+}
+#box8content-1{
+    margin-left: 10px;
+}
+
+/* CONTENT SECTION 2 */
+#content-section-2{
+    background-color: #e3e6e6;
+    width: 100%;
+    height: 750px;
+}
+
+/* FOOTER */
+#foot-pannel-1{
+    width: 100%;
+    height: 50px;
+    background-color: #37475a;
+}
+
+#foot-pannel-2{
+    width: 100%;
+    height: 400px;
+    background-color: #232f3e;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    
+}
+ul{
+    margin-top: 40px;
+}
+ul a{
+    display: block;
+    margin-top: 10px;
+    color: #cccccc;
+}
+ul p{
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+#foot-pannel-3{
+    background-color: #232f3e;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.5px solid #cccccc;
+
+}
+#foot-logo{
+    background-image: url("Amazon-Logo-White-PNG-Image.png");
+    height: 50px;
+    width: 140px;
+    background-size: cover;
+}
+
+#foot-pannel-4{
+    height: 80px;
+    width: 100%;
+    color: #dddddd;
+    background-color: #131a22;
+    justify-items: center;
+    padding-top: 40px;
+    /*display: flex; */
+}
