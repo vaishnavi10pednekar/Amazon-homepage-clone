@@ -26,7 +26,7 @@
     border: 1.2px solid white;
 }
 #amazonlogo{
-    background-image: url("Amazon-Logo-White-PNG-Image.png");
+    background-image: url("../images/Amazon-Logo-White-PNG-Image.png");
     height: 50px;
     width: 100%;
     background-size: cover;
@@ -282,7 +282,7 @@
 
 /* HERO SECTION */
 #hero-section{
-    background-image: url("heroimage.png");
+    background-image: url("../images/heroimage.png");
     width: 100%;
     height: 400px;
     background-size: cover;
@@ -569,7 +569,7 @@ ul p{
 
 }
 #foot-logo{
-    background-image: url("Amazon-Logo-White-PNG-Image.png");
+    background-image: url("../images/Amazon-Logo-White-PNG-Image.png");
     height: 50px;
     width: 140px;
     background-size: cover;
