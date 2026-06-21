@@ -45,7 +45,7 @@
 
 console.log(a);
 const a = 10;
-a = 890;
+a = 8900;
 console.log(this.a);
 console.log(window.a);
 console.log(window);
