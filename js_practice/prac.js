@@ -1,6 +1,6 @@
 console.log(x);
 console.log(typeof(x));
-console.log(typeof(x));
+console.log(typeof(y));
 
 let y = 1;
 console.log(y);
