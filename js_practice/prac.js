@@ -31,7 +31,7 @@ let course = ['DSA','maths','science','history','geography',8,true,8.6];
 
 console.log(course);
 console.log(typeof(course));
-console.log(course[4]);
+console.log(course[9]);
 console.log(course[8]);
 
 createGame('Temple run');
